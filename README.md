@@ -1,9 +1,58 @@
 # python-calculator
 # 🧮 Python Calculator
 
-A menu-driven console calculator built in Python.
+A collection of calculator applications built in Python, starting from a beginner-friendly calculator and progressing to advanced and scientific versions.
 
-## Features
+This repository demonstrates my learning journey in Python by implementing calculators with increasing complexity and functionality.
+
+---
+
+## 📂 Repository Structure
+
+```
+python-calculator/
+│
+├── basic/
+│   └── calculator.py
+│
+├── advanced/
+│   └── calculator.py
+│
+├── scientific/
+│   └── calculator.py
+│
+├── README.md
+```
+
+---
+
+# 🚀 Calculator Versions
+
+## 🟢 Basic Calculator
+
+A beginner-friendly calculator that performs the four fundamental arithmetic operations.
+
+### Features
+
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+
+**Concepts Used**
+
+- Variables
+- User Input
+- Conditional Statements
+- Basic Arithmetic Operators
+
+---
+
+## 🟡 Advanced Calculator
+
+An enhanced calculator with additional mathematical operations and improved program structure.
+
+### Features
 
 - ➕ Addition
 - ➖ Subtraction
@@ -13,66 +62,128 @@ A menu-driven console calculator built in Python.
 - 📐 Floor Division
 - ⚡ Power
 - √ Square Root
+- 🔢 Factorial
+- 📊 Percentage
+- 📈 Maximum & Minimum
 - ❌ Division by Zero Handling
-- 🔁 Continuous Calculations
-- 🚪 Exit Option
+- 🔄 Continuous Calculations
+- ⚠️ Input Validation
 
-## Technologies Used
+**Concepts Used**
 
-- Python 3
 - Functions
 - Loops
-- Conditional Statements
 - Exception Handling
 - Math Module
+- Menu-Driven Programming
 
-## Project Structure
+---
 
-```
-python-calculator/
-│
-├── calculator.py
-└── README.md
-```
+## 🔴 Scientific Calculator
 
-## How to Run
+A feature-rich calculator that performs advanced mathematical computations.
 
-1. Clone the repository
+### Features
+
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🔢 Factorial
+- 📐 Trigonometric Functions (sin, cos, tan)
+- 📉 Logarithms
+- 🧮 Natural Log (ln)
+- √ Square Root
+- ∛ Cube Root
+- x² Square
+- x³ Cube
+- xʸ Power
+- π Pi Constant
+- e Euler's Number
+- Absolute Value
+- Ceiling & Floor
+- Degree ↔ Radian Conversion
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## ▶️ How to Run
+
+Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/YourUsername/python-calculator.git
 ```
 
-2. Navigate to the project
+Go to the project directory
 
 ```bash
 cd python-calculator
 ```
 
-3. Run the program
+Run any version
 
 ```bash
-python calculator.py
+python basic/calculator.py
 ```
 
-## Sample Menu
+or
 
-```
-=====================================
-        ADVANCED PYTHON CALCULATOR
-=====================================
-
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Modulus
-6. Floor Division
-7. Power
-8. Square Root
-9. Exit
+```bash
+python advanced/calculator.py
 ```
 
-## Author
+or
+
+```bash
+python scientific/calculator.py
+```
+
+---
+
+## 🎯 Learning Objectives
+
+This project helped me practice:
+
+- Python Fundamentals
+- Functions
+- Loops
+- Conditional Statements
+- Exception Handling
+- Modular Programming
+- Problem Solving
+
+---
+
+## 📌 Future Improvements
+
+- GUI Version using Tkinter
+- GUI Version using PyQt
+- Unit Converter
+- Currency Converter
+- Calculator History
+- Themes (Dark & Light)
+- Scientific Mode
+- Keyboard Shortcuts
+
+---
+
+## 👨‍💻 Author
 
 **Mahyishba Nazif**
+
+BS Artificial Intelligence Student
+
+Learning Python • Artificial Intelligence • Machine Learning • Software Development
+
+---
+
+⭐ If you like this project, consider giving it a star!
