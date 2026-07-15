@@ -1,4 +1,4 @@
- 🧮 Python Calculator
+# 🧮 Python Calculator
 
 A collection of calculator applications built in Python, starting from a beginner-friendly calculator and progressing to advanced and scientific versions.
 
